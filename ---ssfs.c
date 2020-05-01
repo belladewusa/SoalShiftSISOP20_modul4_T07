@@ -380,12 +380,12 @@ static int xmp_unlink(const char *path)
 static struct fuse_operations xmp_oper = 
 {
     .getattr    = xmp_getattr,
-    .readdir    = xmp_readdir,	
-    .mkdir        = xmp_mkdir,
-    .rename        = xmp_rename,
-    .read        = xmp_read,   
-    .rmdir      = xmp_rmdir,
-    .unlink     = xmp_unlink,
+    .unlink     = xmp_unlink,   
+    .readdir    = xmp_readdir,
+    .rmdir      = xmp_rmdir, 
+    .mkdir      = xmp_mkdir,
+    .read       = xmp_read, 
+    .rename     = xmp_rename, 
 }; 
 
 
