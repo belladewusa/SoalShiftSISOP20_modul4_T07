@@ -577,6 +577,9 @@ berikut list struct fuse_operation yang jika dipanggil akan menjalankan fungsiny
 
 # Kendala
 
-Untuk nomor 2 tidak sempat mengerjakan dan untuk mengerjakannya juga masih cukup bingung , sedangkan pada soal nomor 3 kami tidak dapat memahami maksud soalnya.
+	Untuk nomor 2 tidak sempat mengerjakan dan untuk mengerjakannya juga masih cukup bingung , sedangkan pada soal nomor 3 kami tidak dapat memahami maksud soalnya.
 
+	semakin padatnya kuliah online dan tugas-tugas yang diberikan setiap mata kuliah yang tidak mengenal batasan waktu hingga malam, akibat pandemi covid-19. membuat kami semakin kesusahan, waktu yang semakin menipis, dan peluang untuk mengerjakan tiap tugas dengan lebih baik semakin berkurang.
+
+	pada keadaan normal saja kami sudah kewalahan dengan keadaan departemen dan angkatan pertama, apalagi dengan kondisi yang seperti ini
 
