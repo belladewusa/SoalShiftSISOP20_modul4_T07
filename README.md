@@ -538,7 +538,7 @@ berikut list struct fuse_operation yang jika dipanggil akan menjalankan fungsiny
 ## Run program
 
 
-**Contoh Output:**\
+**Output:**\
 ![Output Soal 3](https://user-images.githubusercontent.com/17781660/74972328-11bff400-5454-11ea-869e-0f2dc23c3.png)
 
 
