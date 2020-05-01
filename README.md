@@ -538,23 +538,42 @@ berikut list struct fuse_operation yang jika dipanggil akan menjalankan fungsiny
 ## Run program
 
 
-**Output:**\
-![Output Soal 3](https://github.com/belladewusa/SoalShiftSISOP20_modul4_T07/blob/master/ss%20run%20shift%20modul%204/Screenshot%20(570).png)
+**Output1:**\
+![Documents](https://github.com/belladewusa/SoalShiftSISOP20_modul4_T07/blob/master/ss%20run%20shift%20modul%204/Screenshot%20(570).png)
 
-**Output:**\
-![Output Soal 3](https://user-images.githubusercontent.com/17781660/74972328-11bff400-5454-11ea-869e-0f2dc23c3.png)
+**Output2:**\
+![folder program](https://github.com/belladewusa/SoalShiftSISOP20_modul4_T07/blob/master/ss%20run%20shift%20modul%204/Screenshot%20(571).png)
 
-**Output:**\
-![Output Soal 3](https://user-images.githubusercontent.com/17781660/74972328-11bff400-5454-11ea-869e-0f2dc23c3.png)
+**Output3:**\
+![folder bella kosong sebelum di mount](https://github.com/belladewusa/SoalShiftSISOP20_modul4_T07/blob/master/ss%20run%20shift%20modul%204/Screenshot%20(572).png)
 
-**Output:**\
-![Output Soal 3](https://user-images.githubusercontent.com/17781660/74972328-11bff400-5454-11ea-869e-0f2dc23c3.png)
+**Output4:**\
+![compile dan run program](https://github.com/belladewusa/SoalShiftSISOP20_modul4_T07/blob/master/ss%20run%20shift%20modul%204/Screenshot%20(573).png)
 
-**Output:**\
-![Output Soal 3](https://user-images.githubusercontent.com/17781660/74972328-11bff400-5454-11ea-869e-0f2dc23c3.png)
+**Output5:**\
+![folder bella terisi setelah di mount](https://github.com/belladewusa/SoalShiftSISOP20_modul4_T07/blob/master/ss%20run%20shift%20modul%204/Screenshot%20(574).png)
 
-**Output:**\
-![Output Soal 3](https://user-images.githubusercontent.com/17781660/74972328-11bff400-5454-11ea-869e-0f2dc23c3.png)
+**Output6:**\
+![folder encv1_backup isinya sudah terenkripsi](https://github.com/belladewusa/SoalShiftSISOP20_modul4_T07/blob/master/ss%20run%20shift%20modul%204/Screenshot%20(575).png)
+
+**Output7:**\
+![folder encv1_backup setelah direname](https://github.com/belladewusa/SoalShiftSISOP20_modul4_T07/blob/master/ss%20run%20shift%20modul%204/Screenshot%20(576).png)
+
+**Output8:**\
+![isi folder abcd sebelum di rename](https://github.com/belladewusa/SoalShiftSISOP20_modul4_T07/blob/master/ss%20run%20shift%20modul%204/Screenshot%20(577).png)
+
+**Output9:**\
+![isi folder abcd setelah direname](https://github.com/belladewusa/SoalShiftSISOP20_modul4_T07/blob/master/ss%20run%20shift%20modul%204/Screenshot%20(578).png)
+
+**Output10:**\
+![buat bolder baru dengan format awal encv1_ , isinya sudah langsung terenkripsi](https://github.com/belladewusa/SoalShiftSISOP20_modul4_T07/blob/master/ss%20run%20shift%20modul%204/Screenshot%20(579).png)
+
+**Output11:**\
+![ada file log dalam folder bella](https://github.com/belladewusa/SoalShiftSISOP20_modul4_T07/blob/master/ss%20run%20shift%20modul%204/Screenshot%20(580).png)
+
+**Output12:**\
+![isi file log setelah di buka](https://github.com/belladewusa/SoalShiftSISOP20_modul4_T07/blob/master/ss%20run%20shift%20modul%204/Screenshot%20(581).png)
+
 
 # Kendala
 
