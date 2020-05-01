@@ -1,4 +1,5 @@
-## SoalShiftSISOP20_modul4_T07
+# SOAL
+# SoalShiftSISOP20_modul4_T07
 
 Di suatu perusahaan, terdapat pekerja baru yang super jenius, ia bernama jasir. Jasir baru bekerja selama seminggu di perusahan itu, dalam waktu seminggu tersebut ia selalu terhantui oleh ketidak amanan dan ketidak efisienan file system yang digunakan perusahaan tersebut. Sehingga ia merancang sebuah file system yang sangat aman dan efisien.
 
@@ -84,9 +85,9 @@ INFO::200419-18:29:33::CREAT::/iz1/yena.jpg
 INFO::200419-18:29:33::RENAME::/iz1/yena.jpg::/iz1/yena.jpeg
 
 
-## JAWABAN 
+# JAWABAN  
 
-# Penjelasan source code
+## Penjelasan source code
 
 List library yang akan digunakan
 
@@ -534,7 +535,7 @@ berikut list struct fuse_operation yang jika dipanggil akan menjalankan fungsiny
 
 
 
-# Run program
+## Run program
 
 
 **Contoh Output:**\
