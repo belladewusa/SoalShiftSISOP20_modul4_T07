@@ -350,44 +350,44 @@ Fungsi untuk membuat log khusus proses rename
         return 0; 
     }
 
-static int xmp_readdir(const char *path, void *buf, fuse_fill_dir_t filler, off_t offset, struct fuse_file_info *fi)
-{
-    int flag=0; 
-    char fpath[1000];  
-    if(strcmp(path,"/") == 0)
-    {
-        path=dirpath; 
-        sprintf(fpath,"%s",path); 
-    }
-    else if (path[0]!='/' && strncmp(path,"encv1_",6)==0)
+	static int xmp_readdir(const char *path, void *buf, fuse_fill_dir_t filler, off_t offset, struct fuse_file_info *fi)
 	{
-        flag=1; 
-        checkEncrypt(fpath,path); 
-    }
-    else if (path[0]=='/' && strncmp(path,"/encv1_",7)==0)
-	{
-        flag=1;
-        checkEncryptslash(fpath,path); 
-    }
-    else
-	{
-        sprintf(fpath, "%s%s", dirpath, path); 
-    }
-    int res = 0; 
-    DIR *dp; 
-    struct dirent *de; 
-    (void) offset;
-    (void) fi;
-    dp = opendir(fpath);
-    if (dp == NULL)
-        return -errno;
-    while ((de = readdir(dp)) != NULL) 
-	{
-        struct stat st;
-        memset(&st, 0, sizeof(st));
-        st.st_ino = de->d_ino;
-        st.st_mode = de->d_type << 12; 
-        if(strcmp(de->d_name, ".")!=0 && strcmp(de->d_name, "..")!=0 && flag==1)
+	    int flag=0; 
+	    char fpath[1000];  
+	    if(strcmp(path,"/") == 0)
+	    {
+		path=dirpath; 
+		sprintf(fpath,"%s",path); 
+	    }
+	    else if (path[0]!='/' && strncmp(path,"encv1_",6)==0)
+		{
+		flag=1; 
+		checkEncrypt(fpath,path); 
+	    }
+	    else if (path[0]=='/' && strncmp(path,"/encv1_",7)==0)
+		{
+		flag=1;
+		checkEncryptslash(fpath,path); 
+	    }
+	    else
+		{
+		sprintf(fpath, "%s%s", dirpath, path); 
+	    }
+	    int res = 0; 
+	    DIR *dp; 
+	    struct dirent *de; 
+	    (void) offset;
+	    (void) fi;
+	    dp = opendir(fpath);
+	    if (dp == NULL)
+		return -errno;
+	    while ((de = readdir(dp)) != NULL) 
+		{
+		struct stat st;
+		memset(&st, 0, sizeof(st));
+		st.st_ino = de->d_ino;
+		st.st_mode = de->d_type << 12; 
+		if(strcmp(de->d_name, ".")!=0 && strcmp(de->d_name, "..")!=0 && flag==1)
         
 Mendecrypt nama file/folder didalam folder terenkripsi sehingga pada fungsi getattr, nama file akan dienkripsi menghasilkan nama file/folder yang asli        
         
