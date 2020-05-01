@@ -1,4 +1,4 @@
-# SoalShiftSISOP20_modul4_T07
+## SoalShiftSISOP20_modul4_T07
 
 Di suatu perusahaan, terdapat pekerja baru yang super jenius, ia bernama jasir. Jasir baru bekerja selama seminggu di perusahan itu, dalam waktu seminggu tersebut ia selalu terhantui oleh ketidak amanan dan ketidak efisienan file system yang digunakan perusahaan tersebut. Sehingga ia merancang sebuah file system yang sangat aman dan efisien.
 
@@ -86,7 +86,10 @@ INFO::200419-18:29:33::RENAME::/iz1/yena.jpg::/iz1/yena.jpeg
 
 ## JAWABAN 
 
+# Penjelasan source code
+
 List library yang akan digunakan
+
       #define FUSE_USE_VERSION 28
       #include <sys/time.h>
       #include <fuse.h>
@@ -510,6 +513,8 @@ Mendecrypt nama file/folder didalam folder terenkripsi sehingga pada fungsi geta
         return 0; 
     }
 
+berikut list struct fuse_operation yang jika dipanggil akan menjalankan fungsinya
+
     static struct fuse_operations xmp_oper = 
     {
     .getattr    = xmp_getattr,
@@ -529,5 +534,15 @@ Mendecrypt nama file/folder didalam folder terenkripsi sehingga pada fungsi geta
 
 
 
+# Run program
+
+
+**Contoh Output:**\
+![Output Soal 3](https://user-images.githubusercontent.com/17781660/74972328-11bff400-5454-11ea-869e-0f2dc23c346f.png)
+
+
+# Kendala
+
+Untuk nomor 2 tidak sempat mengerjakan dan untuk mengerjakannya juga masih cukup bingung , sedangkan pada soal nomor 3 kami tidak dapat memahami maksud soalnya.
 
 
