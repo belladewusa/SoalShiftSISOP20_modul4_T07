@@ -260,7 +260,7 @@ static int xmp_readdir(const char *path, void *buf, fuse_fill_dir_t filler, off_
 		{
             Decrypt(de->d_name);
         }
-        res = (filler(buf, de->d_name, &st, 0));
+        res = (filler(buf, de->d_name, &st, 0));                                                     
             if(res!=0) break; 
     }
     closedir(dp);
@@ -331,7 +331,7 @@ static int xmp_read(const char *path, char *buf, size_t size, off_t offset, stru
     }
     else if (path[0]!='/' && strncmp(path,"encv1_",6)==0)
 	{
-        checkEncrypt(fpath,path);
+        checkEncrypt(fpath,path);									
     }  		
     else if (path[0]=='/' && strncmp(path,"/encv1_",7)==0)
 	{
@@ -394,6 +394,102 @@ int main(int argc, char *argv[])
     umask(0); 
     return fuse_main(argc, argv, &xmp_oper, NULL);  
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
