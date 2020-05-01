@@ -539,8 +539,22 @@ berikut list struct fuse_operation yang jika dipanggil akan menjalankan fungsiny
 
 
 **Output:**\
+![Output Soal 3](https://github.com/belladewusa/SoalShiftSISOP20_modul4_T07/blob/master/ss%20run%20shift%20modul%204/Screenshot%20(570).png)
+
+**Output:**\
 ![Output Soal 3](https://user-images.githubusercontent.com/17781660/74972328-11bff400-5454-11ea-869e-0f2dc23c3.png)
 
+**Output:**\
+![Output Soal 3](https://user-images.githubusercontent.com/17781660/74972328-11bff400-5454-11ea-869e-0f2dc23c3.png)
+
+**Output:**\
+![Output Soal 3](https://user-images.githubusercontent.com/17781660/74972328-11bff400-5454-11ea-869e-0f2dc23c3.png)
+
+**Output:**\
+![Output Soal 3](https://user-images.githubusercontent.com/17781660/74972328-11bff400-5454-11ea-869e-0f2dc23c3.png)
+
+**Output:**\
+![Output Soal 3](https://user-images.githubusercontent.com/17781660/74972328-11bff400-5454-11ea-869e-0f2dc23c3.png)
 
 # Kendala
 
